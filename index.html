@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LandConnect - Bringing People and Properties Together</title>
+    <meta name="description" content="Professional land sourcing company connecting developers, landowners, and homebuyers through expert relationship building and value-driven solutions.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h1>LandConnect</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Bringing People and Properties Together</h1>
+                <p class="hero-subtitle">We're a friendly, problem-solving land sourcing company that adds real value by connecting developers, landowners, and future homeowners through trusted relationships.</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">Our Services</a>
+                    <a href="#contact" class="btn btn-secondary">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About LandConnect</h2>
+                <p>Your trusted partner in land sourcing and development relationships</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="card-icon">🤝</div>
+                    <h3>Relationship Focused</h3>
+                    <p>We build lasting partnerships between developers and landowners, creating win-win scenarios for all parties involved.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">💡</div>
+                    <h3>Problem Solvers</h3>
+                    <p>Every land deal comes with unique challenges. We specialize in finding creative solutions that work for everyone.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">📈</div>
+                    <h3>Value Driven</h3>
+                    <p>We don't just facilitate transactions – we add genuine value through market expertise and strategic guidance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Comprehensive land sourcing solutions for developers and landowners</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>For Developers</h3>
+                    <ul>
+                        <li>Strategic land acquisition</li>
+                        <li>Site feasibility analysis</li>
+                        <li>Landowner relationship management</li>
+                        <li>Due diligence support</li>
+                        <li>Planning permission guidance</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <h3>For Landowners</h3>
+                    <ul>
+                        <li>Property valuation and assessment</li>
+                        <li>Developer matching services</li>
+                        <li>Market timing advice</li>
+                        <li>Legal and regulatory guidance</li>
+                        <li>Negotiation support</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <h3>For Communities</h3>
+                    <ul>
+                        <li>Sustainable development planning</li>
+                        <li>Community impact assessment</li>
+                        <li>Infrastructure coordination</li>
+                        <li>Environmental considerations</li>
+                        <li>Local benefit optimization</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Ready to start your next land development project? Let's talk.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <strong>Email:</strong> hello@landconnect.com
+                    </div>
+                    <div class="contact-item">
+                        <strong>Phone:</strong> (555) 123-4567
+                    </div>
+                    <div class="contact-item">
+                        <strong>Office Hours:</strong> Mon-Fri 9AM-6PM
+                    </div>
+                    <div class="contact-item">
+                        <strong>Response Time:</strong> Within 24 hours
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="role">I am a...</label>
+                        <select id="role" name="role" required>
+                            <option value="">Select your role</option>
+                            <option value="developer">Developer</option>
+                            <option value="landowner">Landowner</option>
+                            <option value="investor">Investor</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell us about your project or how we can help..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>LandConnect</h3>
+                    <p>Bringing people and properties together through trusted relationships and expert guidance.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>hello@landconnect.com</p>
+                    <p>(555) 123-4567</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 LandConnect. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
